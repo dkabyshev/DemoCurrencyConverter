@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CurrencyCell Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CurrencyCell" class="dashAnchor"></a>
+    <a title="CurrencyCell Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (35% documented)</p>
+        <p class="header-right"><a href="https://github.com/dkabyshev/DemoCurrencyConverter"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CurrencyCell Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BackgroundTimer.html">BackgroundTimer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyCell.html">CurrencyCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyListDataSource.html">CurrencyListDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyListViewModel.html">CurrencyListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyService.html">CurrencyService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyViewModel.html">CurrencyViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Promise.html">Promise</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CurrenciesBase.html">CurrenciesBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyRouter.html">CurrencyRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyRouterErrors.html">CurrencyRouterErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyServiceErrors.html">CurrencyServiceErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyViewModelErrors.html">CurrencyViewModelErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DispatchQueueType.html">DispatchQueueType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EveryTimeFrame.html">EveryTimeFrame</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/State.html">State</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Locale.html">Locale</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIAlertController.html">UIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITableView.html">UITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URLSession.html">URLSession</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyListViewModelInterface.html">CurrencyListViewModelInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyServiceInterface.html">CurrencyServiceInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyViewModelInterface.html">CurrencyViewModelInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkRouter.html">NetworkRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkingSession.html">NetworkingSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReusableNibCell.html">ReusableNibCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Currencies.html">Currencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Currency.html">Currency</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter13AlertCallbacka">AlertCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Failurea">Failure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter8Fullfilla">Fullfill</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter8Listenera">Listener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter15RejectAsPromisea">RejectAsPromise</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Successa">Success</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CurrencyCell</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">CurrencyCell</span> <span class="p">:</span> <span class="kt">UITableViewCell</span><span class="p">,</span> <span class="kt"><a href="../Protocols/ReusableNibCell.html">ReusableNibCell</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(py)currencyIcon"></a>
+                    <a name="//apple_ref/swift/Property/currencyIcon" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(py)currencyIcon">currencyIcon</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">currencyIcon</span><span class="p">:</span> <span class="kt">UIImageView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(py)currencySymbol"></a>
+                    <a name="//apple_ref/swift/Property/currencySymbol" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(py)currencySymbol">currencySymbol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">currencySymbol</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(py)currencyName"></a>
+                    <a name="//apple_ref/swift/Property/currencyName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(py)currencyName">currencyName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">currencyName</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(py)textInput"></a>
+                    <a name="//apple_ref/swift/Property/textInput" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(py)textInput">textInput</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">textInput</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter0B4CellC9formatterSo17NSNumberFormatterCvp"></a>
+                    <a name="//apple_ref/swift/Property/formatter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter0B4CellC9formatterSo17NSNumberFormatterCvp">formatter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">formatter</span><span class="p">:</span> <span class="kt">NumberFormatter</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(im)awakeFromNib"></a>
+                    <a name="//apple_ref/swift/Method/awakeFromNib()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(im)awakeFromNib">awakeFromNib()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">awakeFromNib</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter0B4CellC15didUpdateAmountySdcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/didUpdateAmount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter0B4CellC15didUpdateAmountySdcSgvp">didUpdateAmount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">didUpdateAmount</span><span class="p">:</span> <span class="p">((</span><span class="kt">Double</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter0B4CellC27cellDidBecomeFirstResponderyycSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cellDidBecomeFirstResponder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter0B4CellC27cellDidBecomeFirstResponderyycSgvp">cellDidBecomeFirstResponder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">cellDidBecomeFirstResponder</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter0B4CellC9viewModelAA0b4ViewF9Interface_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/viewModel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter0B4CellC9viewModelAA0b4ViewF9Interface_pSgvp">viewModel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">viewModel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CurrencyViewModelInterface.html">CurrencyViewModelInterface</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(im)prepareForReuse"></a>
+                    <a name="//apple_ref/swift/Method/prepareForReuse()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(im)prepareForReuse">prepareForReuse()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">prepareForReuse</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(im)editingDidChange:"></a>
+                    <a name="//apple_ref/swift/Method/editingDidChange(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@RevolutCurrencyConverter@objc(cs)CurrencyCell(im)editingDidChange:">editingDidChange(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
+<span class="kd">func</span> <span class="nf">editingDidChange</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@RevolutCurrencyConverter@objc(cs)CurrencyCell(im)textFieldDidBeginEditing:"></a>
+                    <a name="//apple_ref/swift/Method/textFieldDidBeginEditing(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@RevolutCurrencyConverter@objc(cs)CurrencyCell(im)textFieldDidBeginEditing:">textFieldDidBeginEditing(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textFieldDidBeginEditing</span><span class="p">(</span><span class="n">_</span> <span class="nv">textField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@RevolutCurrencyConverter@objc(cs)CurrencyCell(im)textField:shouldChangeCharactersInRange:replacementString:"></a>
+                    <a name="//apple_ref/swift/Method/textField(_:shouldChangeCharactersIn:replacementString:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@RevolutCurrencyConverter@objc(cs)CurrencyCell(im)textField:shouldChangeCharactersInRange:replacementString:">textField(_:shouldChangeCharactersIn:replacementString:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textField</span><span class="p">(</span><span class="n">_</span> <span class="nv">textField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="p">,</span> <span class="n">shouldChangeCharactersIn</span> <span class="nv">range</span><span class="p">:</span> <span class="kt">NSRange</span><span class="p">,</span> <span class="n">replacementString</span> <span class="nv">string</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://github.com/dkabyshev" target="_blank" rel="external">Dmytro</a>. All rights reserved. (Last updated: 2019-01-25)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

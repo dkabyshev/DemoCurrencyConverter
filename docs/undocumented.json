@@ -1,0 +1,705 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Models/Currency.swift",
+      "line": 11,
+      "symbol": "Currencies",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Models/Currency.swift",
+      "line": 12,
+      "symbol": "Currencies.rates",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Models/Currency.swift",
+      "line": 15,
+      "symbol": "Currency",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Models/Currency.swift",
+      "line": 16,
+      "symbol": "Currency.symbol",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Models/Currency.swift",
+      "line": 17,
+      "symbol": "Currency.rate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/CurrencyRouter.swift",
+      "line": 11,
+      "symbol": "CurrenciesBase",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/CurrencyRouter.swift",
+      "line": 12,
+      "symbol": "CurrenciesBase.eur",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/CurrencyRouter.swift",
+      "line": 15,
+      "symbol": "CurrencyRouterErrors",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/CurrencyRouter.swift",
+      "line": 16,
+      "symbol": "CurrencyRouterErrors.urlNotValid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/CurrencyRouter.swift",
+      "line": 19,
+      "symbol": "CurrencyRouter",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/CurrencyRouter.swift",
+      "line": 20,
+      "symbol": "CurrencyRouter.currencies(base:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/CurrencyRouter.swift",
+      "line": 22,
+      "symbol": "CurrencyRouter.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/CurrencyRouter.swift",
+      "line": 29,
+      "symbol": "CurrencyRouter.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/CurrencyRouter.swift",
+      "line": 35,
+      "symbol": "CurrencyRouter.queryParameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/Router.swift",
+      "line": 13,
+      "symbol": "HTTPMethod.get",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/Router.swift",
+      "line": 14,
+      "symbol": "HTTPMethod.post",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/Router.swift",
+      "line": 15,
+      "symbol": "HTTPMethod.put",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/Router.swift",
+      "line": 16,
+      "symbol": "HTTPMethod.patch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Routers/Router.swift",
+      "line": 17,
+      "symbol": "HTTPMethod.delete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Services/CurrencyService.swift",
+      "line": 11,
+      "symbol": "CurrencyServiceErrors",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Services/CurrencyService.swift",
+      "line": 12,
+      "symbol": "CurrencyServiceErrors.dataNotValid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Services/CurrencyService.swift",
+      "line": 15,
+      "symbol": "CurrencyService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Services/CurrencyService.swift",
+      "line": 16,
+      "symbol": "CurrencyService.session",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Services/CurrencyService.swift",
+      "line": 18,
+      "symbol": "CurrencyService.init(session:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Services/CurrencyService.swift",
+      "line": 22,
+      "symbol": "CurrencyService.fetchCurrencies()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Services/CurrencyServiceInterface.swift",
+      "line": 11,
+      "symbol": "CurrencyServiceInterface",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/Services/CurrencyServiceInterface.swift",
+      "line": 12,
+      "symbol": "CurrencyServiceInterface.fetchCurrencies()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Networking/URLSession+Ext.swift",
+      "line": 13,
+      "symbol": "NetworkingSession.request(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Promise/Promise.swift",
+      "line": 11,
+      "symbol": "Failure",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Promise/Promise.swift",
+      "line": 12,
+      "symbol": "RejectAsPromise",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Promise/Promise.swift",
+      "line": 13,
+      "symbol": "Success",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Promise/Promise.swift",
+      "line": 14,
+      "symbol": "Fullfill",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Promise/Promise.swift",
+      "line": 15,
+      "symbol": "Listener",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Promise/Promise.swift",
+      "line": 39,
+      "symbol": "Promise.init(on:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/BackgroundTimer.swift",
+      "line": 17,
+      "symbol": "EveryTimeFrame.minutes(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/BackgroundTimer.swift",
+      "line": 18,
+      "symbol": "EveryTimeFrame.seconds(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/BackgroundTimer.swift",
+      "line": 19,
+      "symbol": "EveryTimeFrame.hours(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/BackgroundTimer.swift",
+      "line": 36,
+      "symbol": "State.suspended",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/BackgroundTimer.swift",
+      "line": 37,
+      "symbol": "State.resumed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/BackgroundTimer.swift",
+      "line": 77,
+      "symbol": "BackgroundTimer.suspend()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/BackgroundTimer.swift",
+      "line": 83,
+      "symbol": "BackgroundTimer.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/DispatchQueue+Ex.swift",
+      "line": 11,
+      "symbol": "DispatchQueueType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/DispatchQueue+Ex.swift",
+      "line": 12,
+      "symbol": "DispatchQueueType.main",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/DispatchQueue+Ex.swift",
+      "line": 13,
+      "symbol": "DispatchQueueType.userInitiated",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/DispatchQueue+Ex.swift",
+      "line": 14,
+      "symbol": "DispatchQueueType.background",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/DispatchQueue+Ex.swift",
+      "line": 16,
+      "symbol": "DispatchQueueType.dispatchQueue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/Result.swift",
+      "line": 16,
+      "symbol": "Result.success(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/Result.swift",
+      "line": 17,
+      "symbol": "Result.failure(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Utils/Result.swift",
+      "line": 19,
+      "symbol": "Result.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewControllers/CurrencyListDataSource.swift",
+      "line": 13,
+      "symbol": "CurrencyListDataSource.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewControllers/CurrencyListDataSource.swift",
+      "line": 14,
+      "symbol": "CurrencyListDataSource.viewModels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewControllers/CurrencyListDataSource.swift",
+      "line": 15,
+      "symbol": "CurrencyListDataSource.dataReload",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewControllers/CurrencyListDataSource.swift",
+      "line": 16,
+      "symbol": "CurrencyListDataSource.onError",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewControllers/CurrencyListDataSource.swift",
+      "line": 18,
+      "symbol": "CurrencyListDataSource.init(viewModel:dataReload:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewControllers/CurrencyListDataSource.swift",
+      "line": 41,
+      "symbol": "CurrencyListDataSource.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewControllers/CurrencyListDataSource.swift",
+      "line": 45,
+      "symbol": "CurrencyListDataSource.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewControllers/UIViewController+Ext.swift",
+      "line": 11,
+      "symbol": "AlertCallback",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewControllers/UIViewController+Ext.swift",
+      "line": 14,
+      "symbol": "UIAlertController.genericErrorAlertController(message:retryCallback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewControllers/UIViewController+Ext.swift",
+      "line": 36,
+      "symbol": "UIViewController.showDefaultError(error:retry:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 11,
+      "symbol": "CurrencyViewModelErrors",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 12,
+      "symbol": "CurrencyViewModelErrors.negativeAmount",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 25,
+      "symbol": "CurrencyViewModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 26,
+      "symbol": "CurrencyViewModel.currencyCode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 27,
+      "symbol": "CurrencyViewModel.currencyName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 28,
+      "symbol": "CurrencyViewModel.amountValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 29,
+      "symbol": "CurrencyViewModel.baseCurrencyValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 30,
+      "symbol": "CurrencyViewModel.userInputAmount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 31,
+      "symbol": "CurrencyViewModel.updateQueue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 79,
+      "symbol": "CurrencyListViewModel.service",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 80,
+      "symbol": "CurrencyListViewModel.currenciesPromises",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 81,
+      "symbol": "CurrencyListViewModel.amountPromise",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 82,
+      "symbol": "CurrencyListViewModel.resultPromise",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 83,
+      "symbol": "CurrencyListViewModel.timer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModel.swift",
+      "line": 85,
+      "symbol": "CurrencyListViewModel.init(service:initialBaseAmount:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModelInterfaces.swift",
+      "line": 11,
+      "symbol": "CurrencyViewModelInterface",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModelInterfaces.swift",
+      "line": 12,
+      "symbol": "CurrencyViewModelInterface.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModelInterfaces.swift",
+      "line": 13,
+      "symbol": "CurrencyViewModelInterface.currencyCode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModelInterfaces.swift",
+      "line": 14,
+      "symbol": "CurrencyViewModelInterface.currencyName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModelInterfaces.swift",
+      "line": 15,
+      "symbol": "CurrencyViewModelInterface.amountValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModelInterfaces.swift",
+      "line": 17,
+      "symbol": "CurrencyViewModelInterface.updateCurrencyValue(amount:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModelInterfaces.swift",
+      "line": 20,
+      "symbol": "CurrencyListViewModelInterface",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModelInterfaces.swift",
+      "line": 21,
+      "symbol": "CurrencyListViewModelInterface.fetch()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/ViewModels/CurrencyListViewModelInterfaces.swift",
+      "line": 22,
+      "symbol": "CurrencyListViewModelInterface.scheduleUpdate(every:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": null,
+      "symbol": "CurrencyCell",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 11,
+      "symbol": "CurrencyCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 12,
+      "symbol": "CurrencyCell.currencyIcon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 13,
+      "symbol": "CurrencyCell.currencySymbol",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 14,
+      "symbol": "CurrencyCell.currencyName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 15,
+      "symbol": "CurrencyCell.textInput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 16,
+      "symbol": "CurrencyCell.formatter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 18,
+      "symbol": "CurrencyCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 31,
+      "symbol": "CurrencyCell.didUpdateAmount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 32,
+      "symbol": "CurrencyCell.cellDidBecomeFirstResponder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 33,
+      "symbol": "CurrencyCell.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 49,
+      "symbol": "CurrencyCell.prepareForReuse()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 56,
+      "symbol": "CurrencyCell.editingDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 62,
+      "symbol": "CurrencyCell.textFieldDidBeginEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/CurrencyCell.swift",
+      "line": 67,
+      "symbol": "CurrencyCell.textField(_:shouldChangeCharactersIn:replacementString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/ReusableNibCell.swift",
+      "line": null,
+      "symbol": "ReusableNibCell",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter/RevolutCurrencyConverter/Views/ReusableNibCell.swift",
+      "line": 11,
+      "symbol": "ReusableNibCell",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/dmytrokabyshev/Development/HillTrix/RevolutCurrencyConverter"
+}

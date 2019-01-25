@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Promise Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/Promise" class="dashAnchor"></a>
+    <a title="Promise Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (35% documented)</p>
+        <p class="header-right"><a href="https://github.com/dkabyshev/DemoCurrencyConverter"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Promise Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BackgroundTimer.html">BackgroundTimer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyCell.html">CurrencyCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyListDataSource.html">CurrencyListDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyListViewModel.html">CurrencyListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyService.html">CurrencyService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyViewModel.html">CurrencyViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Promise.html">Promise</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CurrenciesBase.html">CurrenciesBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyRouter.html">CurrencyRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyRouterErrors.html">CurrencyRouterErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyServiceErrors.html">CurrencyServiceErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyViewModelErrors.html">CurrencyViewModelErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DispatchQueueType.html">DispatchQueueType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EveryTimeFrame.html">EveryTimeFrame</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/State.html">State</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Locale.html">Locale</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIAlertController.html">UIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITableView.html">UITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URLSession.html">URLSession</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyListViewModelInterface.html">CurrencyListViewModelInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyServiceInterface.html">CurrencyServiceInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyViewModelInterface.html">CurrencyViewModelInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkRouter.html">NetworkRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkingSession.html">NetworkingSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReusableNibCell.html">ReusableNibCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Currencies.html">Currencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Currency.html">Currency</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter13AlertCallbacka">AlertCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Failurea">Failure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter8Fullfilla">Fullfill</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter8Listenera">Listener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter15RejectAsPromisea">RejectAsPromise</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Successa">Success</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Promise</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            <p>Simple promise utility class
+ Usage:</p>
+<pre class="highlight swift"><code>     <span class="k">let</span> <span class="nv">promise</span> <span class="o">=</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">UIImage</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">on</span><span class="p">:</span> <span class="o">.</span><span class="n">background</span><span class="p">)</span>
+     <span class="nf">someSyncTask</span><span class="p">()</span> <span class="p">{</span> <span class="n">result</span><span class="p">,</span> <span class="n">error</span> <span class="k">in</span>
+         <span class="k">if</span> <span class="k">let</span> <span class="nv">error</span> <span class="o">=</span> <span class="n">error</span> <span class="p">{</span>
+             <span class="n">promise</span><span class="o">.</span><span class="nf">reject</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+         <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+             <span class="n">promise</span><span class="o">.</span><span class="nf">resolve</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+         <span class="p">}</span>
+     <span class="p">}</span>
+</code></pre>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC10lastResult33_87A7CDBB6A5CFECC021974AB38E2C0E0LLxSgvp"></a>
+                    <a name="//apple_ref/swift/Property/lastResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC10lastResult33_87A7CDBB6A5CFECC021974AB38E2C0E0LLxSgvp">lastResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Holds last successful result</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">lastResult</span><span class="p">:</span> <span class="kt">T</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC14operationQueue33_87A7CDBB6A5CFECC021974AB38E2C0E0LLAA08DispatchF4TypeOvp"></a>
+                    <a name="//apple_ref/swift/Property/operationQueue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC14operationQueue33_87A7CDBB6A5CFECC021974AB38E2C0E0LLAA08DispatchF4TypeOvp">operationQueue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Queue on which main promise task will be executed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">operationQueue</span><span class="p">:</span> <span class="kt"><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC4task33_87A7CDBB6A5CFECC021974AB38E2C0E0LLyACyxGKcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/task" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC4task33_87A7CDBB6A5CFECC021974AB38E2C0E0LLyACyxGKcSgvp">task</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Closure for a main promise task</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">task</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:24RevolutCurrencyConverter8Fullfilla">Fullfill</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC9listeners33_87A7CDBB6A5CFECC021974AB38E2C0E0LLSayyAA6ResultOyxGcGvp"></a>
+                    <a name="//apple_ref/swift/Property/listeners" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC9listeners33_87A7CDBB6A5CFECC021974AB38E2C0E0LLSayyAA6ResultOyxGcGvp">listeners</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An array of listeners for current promise</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">listeners</span><span class="p">:</span> <span class="p">[(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC2on_ACyxGAA17DispatchQueueTypeO_yAEKctcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(on:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC2on_ACyxGAA17DispatchQueueTypeO_yAEKctcfc">init(on:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="n">on</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt"><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span> <span class="n">_</span> <span class="nv">task</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:24RevolutCurrencyConverter8Fullfilla">Fullfill</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC7resolveyyxF"></a>
+                    <a name="//apple_ref/swift/Method/resolve(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC7resolveyyxF">resolve(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resolve current promise with success result</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">resolve</span><span class="p">(</span><span class="n">_</span> <span class="nv">result</span><span class="p">:</span> <span class="kt">T</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>result</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>result of type T</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC6rejectyys5Error_pF"></a>
+                    <a name="//apple_ref/swift/Method/reject(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC6rejectyys5Error_pF">reject(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reject current promise with error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reject</span><span class="p">(</span><span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>result</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>Error</code> to be propagated to all listeners</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC11addListener33_87A7CDBB6A5CFECC021974AB38E2C0E0LLyyyAA6ResultOyxGcF"></a>
+                    <a name="//apple_ref/swift/Method/addListener(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC11addListener33_87A7CDBB6A5CFECC021974AB38E2C0E0LLyyyAA6ResultOyxGcF">addListener(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Internal function to add a listener to task result</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">addListener</span><span class="p">(</span><span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:24RevolutCurrencyConverter8Listenera">Listener</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>listener callback</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC7runTask33_87A7CDBB6A5CFECC021974AB38E2C0E0LL6isSyncySb_tF"></a>
+                    <a name="//apple_ref/swift/Method/runTask(isSync:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC7runTask33_87A7CDBB6A5CFECC021974AB38E2C0E0LL6isSyncySb_tF">runTask(isSync:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Run the task body on <code><a href="../Classes/Promise.html#/s:24RevolutCurrencyConverter7PromiseC14operationQueue33_87A7CDBB6A5CFECC021974AB38E2C0E0LLAA08DispatchF4TypeOvp">operationQueue</a></code>.
+The task will be executed as sync or directly if the thread is Main
+and we were requested to run on main</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">runTask</span><span class="p">(</span><span class="nv">isSync</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>resolve</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback for success with value</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>reject</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback for failure with error</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC9chainable33_87A7CDBB6A5CFECC021974AB38E2C0E0LL2on__ACyxGAA17DispatchQueueTypeO_yxKcSgys5Error_pcSgtF"></a>
+                    <a name="//apple_ref/swift/Method/chainable(on:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC9chainable33_87A7CDBB6A5CFECC021974AB38E2C0E0LL2on__ACyxGAA17DispatchQueueTypeO_yxKcSgys5Error_pcSgtF">chainable(on:_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Internal method to wrap a promise and run its task</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">chainable</span><span class="p">(</span><span class="n">on</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt"><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span> <span class="n">_</span> <span class="nv">success</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Successa">Success</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">?,</span> <span class="n">_</span> <span class="nv">failure</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Failurea">Failure</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>type (<code><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></code>) of async queue to execute result <code>success</code> or <code>failure</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback to execute that transforms into another promise</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>new Promise<U></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC9chainable33_87A7CDBB6A5CFECC021974AB38E2C0E0LL2on_ACyqd__GAA17DispatchQueueTypeO_AGxKctlF"></a>
+                    <a name="//apple_ref/swift/Method/chainable(on:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC9chainable33_87A7CDBB6A5CFECC021974AB38E2C0E0LL2on_ACyqd__GAA17DispatchQueueTypeO_AGxKctlF">chainable(on:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Internal method to wrap a promise and run its task</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="n">chainable</span><span class="o">&lt;</span><span class="kt">U</span><span class="o">&gt;</span><span class="p">(</span><span class="n">on</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt"><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span> <span class="n">_</span> <span class="nv">closure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">T</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">U</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">U</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>type (<code><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></code>) of async queue to execute result <code>closure</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback to execute that transforms into another promise</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>new Promise<U></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC4then2on_ACyxGAA17DispatchQueueTypeO_yxKctF"></a>
+                    <a name="//apple_ref/swift/Method/then(on:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC4then2on_ACyxGAA17DispatchQueueTypeO_yxKctF">then(on:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>.then operator executes <code>closure</code> in case of success of original task
+<code>closure</code> is executed on provided <code>queue</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="nf">then</span><span class="p">(</span><span class="n">on</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt"><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span> <span class="n">_</span> <span class="nv">closure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Successa">Success</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>type (<code><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></code>) of async queue to execute result <code>closure</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code><a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Successa">Success&lt;T&gt;</a></code> callback to execute if original promise task was successful</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>return a new chainable promise</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC3map2on_ACyqd__GAA17DispatchQueueTypeO_AFxctlF"></a>
+                    <a name="//apple_ref/swift/Method/map(on:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC3map2on_ACyqd__GAA17DispatchQueueTypeO_AFxctlF">map(on:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>.mapThen operator executes <code>closure</code> in case of success of an original task
+<code>closure</code> is executed on provided <code>queue</code>
+Used to transform one promise into another</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="n">map</span><span class="o">&lt;</span><span class="kt">U</span><span class="o">&gt;</span><span class="p">(</span><span class="n">on</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt"><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span> <span class="n">_</span> <span class="nv">closure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">T</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">U</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">U</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>type (<code><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></code>) of async queue to execute result <code>closure</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback to execute if original promise task was successful, that return a new Promise</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>return a new chainable promise</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC5error2on_ACyxGAA17DispatchQueueTypeO_ys5Error_pctF"></a>
+                    <a name="//apple_ref/swift/Method/error(on:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC5error2on_ACyxGAA17DispatchQueueTypeO_ys5Error_pctF">error(on:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>.error operator executes <code>closure</code> in case of failure of an original task
+<code>closure</code> is executed on provided <code>queue</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="nf">error</span><span class="p">(</span><span class="n">on</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt"><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span> <span class="n">_</span> <span class="nv">closure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Failurea">Failure</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>type (<code><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></code>) of async queue to execute result <code>closure</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code><a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Failurea">Failure</a></code> callback to execute if original promise task failed</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>return a new chainable promise</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC6always2on_ACyxGAA17DispatchQueueTypeO_yyctF"></a>
+                    <a name="//apple_ref/swift/Method/always(on:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC6always2on_ACyxGAA17DispatchQueueTypeO_yyctF">always(on:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>.always operator executes regardless of resulting value of an original task
+<code>closure</code> is executed on provided <code>queue</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="nf">always</span><span class="p">(</span><span class="n">on</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt"><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span> <span class="n">_</span> <span class="nv">closure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>type (<code><a href="../Enums/DispatchQueueType.html">DispatchQueueType</a></code>) of async queue to execute result <code>closure</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback to execute when original task is done</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>return a new chainable promise</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter7PromiseC8withLast7promiseACyx_qd__tGACyqd__G_tlF"></a>
+                    <a name="//apple_ref/swift/Method/withLast(promise:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter7PromiseC8withLast7promiseACyx_qd__tGACyqd__G_tlF">withLast(promise:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>.withLast operator executes only, and only when current promise amd if <code>promise</code> has last success value
+It emits a pair using the last success value from <code>promise</code> once it gets triggerd by current one
+But only when both promises has results</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="n">withLast</span><span class="o">&lt;</span><span class="kt">U</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">promise</span><span class="p">:</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt">U</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="p">(</span><span class="kt">T</span><span class="p">,</span> <span class="kt">U</span><span class="p">)</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>promise</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>other promise to watch for results and propagate a pair (T, U) where T us our type, and U is the other</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>new chainable promise with type (T, U)</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://github.com/dkabyshev" target="_blank" rel="external">Dmytro</a>. All rights reserved. (Last updated: 2019-01-25)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

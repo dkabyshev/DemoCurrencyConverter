@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BackgroundTimer Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BackgroundTimer" class="dashAnchor"></a>
+    <a title="BackgroundTimer Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (35% documented)</p>
+        <p class="header-right"><a href="https://github.com/dkabyshev/DemoCurrencyConverter"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BackgroundTimer Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BackgroundTimer.html">BackgroundTimer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyCell.html">CurrencyCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyListDataSource.html">CurrencyListDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyListViewModel.html">CurrencyListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyService.html">CurrencyService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyViewModel.html">CurrencyViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Promise.html">Promise</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CurrenciesBase.html">CurrenciesBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyRouter.html">CurrencyRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyRouterErrors.html">CurrencyRouterErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyServiceErrors.html">CurrencyServiceErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyViewModelErrors.html">CurrencyViewModelErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DispatchQueueType.html">DispatchQueueType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EveryTimeFrame.html">EveryTimeFrame</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/State.html">State</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Locale.html">Locale</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIAlertController.html">UIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITableView.html">UITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URLSession.html">URLSession</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyListViewModelInterface.html">CurrencyListViewModelInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyServiceInterface.html">CurrencyServiceInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyViewModelInterface.html">CurrencyViewModelInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkRouter.html">NetworkRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkingSession.html">NetworkingSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReusableNibCell.html">ReusableNibCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Currencies.html">Currencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Currency.html">Currency</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter13AlertCallbacka">AlertCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Failurea">Failure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter8Fullfilla">Fullfill</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter8Listenera">Listener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter15RejectAsPromisea">RejectAsPromise</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:24RevolutCurrencyConverter7Successa">Success</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BackgroundTimer</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">BackgroundTimer</span></code></pre>
+
+                </div>
+              </div>
+            <p>Background execution timer via DispatchSourceTimer</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter15BackgroundTimerC12timeInterval33_C33AA160E91FE48CA86076BDE0A83774LLSdvp"></a>
+                    <a name="//apple_ref/swift/Property/timeInterval" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter15BackgroundTimerC12timeInterval33_C33AA160E91FE48CA86076BDE0A83774LLSdvp">timeInterval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Timer interval in soconds</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">timeInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter15BackgroundTimerC5timer33_C33AA160E91FE48CA86076BDE0A83774LLSo019OS_dispatch_source_F0_pvp"></a>
+                    <a name="//apple_ref/swift/Property/timer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter15BackgroundTimerC5timer33_C33AA160E91FE48CA86076BDE0A83774LLSo019OS_dispatch_source_F0_pvp">timer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Main timer <code>DispatchSourceTimer</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">timer</span><span class="p">:</span> <span class="kt">DispatchSourceTimer</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter15BackgroundTimerC12eventHandler33_C33AA160E91FE48CA86076BDE0A83774LLyycSgvp"></a>
+                    <a name="//apple_ref/swift/Property/eventHandler" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter15BackgroundTimerC12eventHandler33_C33AA160E91FE48CA86076BDE0A83774LLyycSgvp">eventHandler</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Closure that will be triggered each <code><a href="../Classes/BackgroundTimer.html#/s:24RevolutCurrencyConverter15BackgroundTimerC12timeInterval33_C33AA160E91FE48CA86076BDE0A83774LLSdvp">timeInterval</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">eventHandler</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter15BackgroundTimerC5state33_C33AA160E91FE48CA86076BDE0A83774LLAA5StateAELLOvp"></a>
+                    <a name="//apple_ref/swift/Property/state" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter15BackgroundTimerC5state33_C33AA160E91FE48CA86076BDE0A83774LLAA5StateAELLOvp">state</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Current timer&rsquo;s state</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">state</span><span class="p">:</span> <span class="kt"><a href="../Enums/State.html">State</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter15BackgroundTimerC12timeInterval12eventHandlerAcA14EveryTimeFrameO_yyctcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(timeInterval:eventHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter15BackgroundTimerC12timeInterval12eventHandlerAcA14EveryTimeFrameO_yyctcfc">init(timeInterval:eventHandler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create new background timer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">timeInterval</span><span class="p">:</span> <span class="kt"><a href="../Enums/EveryTimeFrame.html">EveryTimeFrame</a></span><span class="p">,</span> <span class="nv">eventHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>timeInterval</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>time interval for callaback <code><a href="../Enums/EveryTimeFrame.html">EveryTimeFrame</a></code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>eventHandler</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>closure to run on interval basis</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter15BackgroundTimerC6resumeyyF"></a>
+                    <a name="//apple_ref/swift/Method/resume()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter15BackgroundTimerC6resumeyyF">resume()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resume (or start for a new one) the timer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">resume</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter15BackgroundTimerC7suspendyyF"></a>
+                    <a name="//apple_ref/swift/Method/suspend()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter15BackgroundTimerC7suspendyyF">suspend()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">suspend</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24RevolutCurrencyConverter15BackgroundTimerCfd"></a>
+                    <a name="//apple_ref/swift/Method/deinit" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24RevolutCurrencyConverter15BackgroundTimerCfd">deinit</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">deinit</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://github.com/dkabyshev" target="_blank" rel="external">Dmytro</a>. All rights reserved. (Last updated: 2019-01-25)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
