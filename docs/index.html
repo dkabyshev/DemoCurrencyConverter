@@ -177,9 +177,20 @@
         <section>
           <section class="section">
             
-            <h3 id='authors' class='heading'>Authors</h3>
+            <h1 id='democurrencyconverter' class='heading'>DemoCurrencyConverter</h1>
 
-<p>Dmytro</p>
+<p>Simple demo application of real-time currency converter app with zero dependency. Check out the <a href="https://dkabyshev.github.io/DemoCurrencyConverter/">Documentaion</a>.</p>
+
+<p><img src="./assets/demo.gif" alt=""></p>
+
+<p>Main design principles:</p>
+
+<ul>
+<li><strong>MVVM</strong>: ViewModel carries logic of triggering the fitch and pushing update to the VIewController;</li>
+<li><strong>Dependency Injection</strong>: Logic is separated into modules and dependecy is added via <em>Protocol</em>;</li>
+<li><strong>Async code via simple Promise</strong>: Tiny Promise is used to serve a purpose of clean code and delayed delegation;</li>
+<li><strong>Tests</strong>: Tests covers all functionality and code separation allows to avoid direct UI Tests, leaving ViewController dumb at logic.</li>
+</ul>
 
           </section>
         </section>
